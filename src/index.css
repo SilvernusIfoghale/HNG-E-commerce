@@ -46,38 +46,38 @@ body {
   position: relative;
 }
 
-/* .main img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
-  overflow: hidden;
-} */
-
+.subUse {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 80px;
+}
 .top-head {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-right: 10px;
-  width: 100%;
-  gap: 40px;
-  margin-bottom: 10px;
+  gap: 300px;
+  margin-top: 40px;
 }
 .top-head img {
-  width: 20px;
+  width: 25px;
 }
 .text-price {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 .section-details {
   display: flex;
-  width: 50%;
+  width: 60%;
   justify-content: space-between;
   align-items: center;
   padding: 5px 15px;
 }
 .section-details p {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: bold;
 }
 .review {
@@ -91,6 +91,7 @@ body {
 .rv-bold {
   font-weight: normal;
 }
+
 .footer {
   display: flex;
   position: relative;
@@ -105,16 +106,16 @@ body {
   position: static;
   display: flex;
   justify-content: space-between;
-  margin: 20px 10px;
+  margin: 25px;
   text-align: center;
   gap: 20px;
-  width: 300px;
+  width: 670px;
 }
 .add-cart img {
-  width: 25px;
+  width: 30px;
 }
 .add-btn p {
-  font-size: 14px;
+  font-size: 18px;
   color: #086d24;
   font-weight: bold;
 }
@@ -122,38 +123,38 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  width: 190px;
-  height: 40px;
-  border-radius: 25px;
+  gap: 15px;
+  width: 200px;
+  height: 70px;
+  border-radius: 30px;
   border: 1px solid #000;
 }
 .Home {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 55px;
-  height: 43px;
-  border-radius: 50%;
+  width: 75px;
+  height: 70px;
+  border-radius: 60%;
   border: 1px solid #000;
 }
 .Home img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 .buy-now {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 105px;
-  height: 40px;
-  border-radius: 25px;
+  width: 135px;
+  height: 70px;
+  border-radius: 28px;
   background-color: #086d24;
 }
 .buy-now p {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
-  font-weight: 400;
+  font-weight: bold;
 }
 .addSuccess {
   display: flex;
@@ -731,6 +732,12 @@ Breakpoint Ipad
     border-radius: 20px;
     margin: 20px auto;
   }
+  .top-head {
+    gap: 200px;
+  }
+  .section-details {
+    width: 70%;
+  }
 }
 /*Breakpoint*/
 @media screen and (max-width: 645px) {
@@ -772,6 +779,12 @@ Breakpoint Ipad
     height: 37px;
     background-color: #0f0;
     border-radius: 50%;
+  }
+  .top-head {
+    gap: 100px;
+  }
+  .section-details {
+    width: 90%;
   }
   .categories {
     display: flex;

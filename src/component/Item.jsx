@@ -61,7 +61,7 @@ function Item(props) {
           <img src={image} alt="" />
         </div>
       </div>
-      <div className="sub-section">
+      <div className="sub-section subUse">
         <div className="variant-product">
           <span onClick={handleClicked1}>
             <img src={productView1} alt="" />

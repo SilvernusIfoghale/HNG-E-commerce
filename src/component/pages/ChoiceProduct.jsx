@@ -11,7 +11,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 function ChoiceProduct() {
   const { state } = useLocation();
-  console.log(state.id);
+  //   console.log(state.id);
   const navigate = useNavigate();
 
   const handleBack = () => {
