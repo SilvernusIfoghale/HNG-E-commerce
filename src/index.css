@@ -1012,7 +1012,7 @@ Breakpoint Ipad
 
   /* SingleProduct */
   .top-section {
-    min-width: 365px;
+    min-width: 385px;
     height: 430px;
     background-color: #ecebeb;
     display: flex;
@@ -1060,6 +1060,7 @@ Breakpoint Ipad
     height: 83px;
     border-radius: 20px;
     background-color: #d9d9d9;
+    margin-bottom: 40px;
   }
   .top-head {
     display: flex;
@@ -1068,13 +1069,15 @@ Breakpoint Ipad
     margin-right: 10px;
     width: 100%;
     gap: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
   }
   .top-head img {
     width: 20px;
   }
   .text-price {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
   }
   .section-details {
@@ -1085,13 +1088,14 @@ Breakpoint Ipad
     padding: 25px 15px;
   }
   .section-details p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
   }
   .review {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 30px;
   }
   .review img {
     width: 20px;
@@ -1113,16 +1117,16 @@ Breakpoint Ipad
     position: static;
     display: flex;
     justify-content: space-between;
-    margin: 20px 10px;
+    margin: 20px;
     text-align: center;
     gap: 20px;
-    width: 300px;
+    width: 370px;
   }
   .add-cart img {
     width: 25px;
   }
   .add-btn p {
-    font-size: 14px;
+    font-size: 15px;
     color: #086d24;
     font-weight: bold;
   }
@@ -1132,7 +1136,7 @@ Breakpoint Ipad
     justify-content: center;
     gap: 10px;
     width: 190px;
-    height: 50px;
+    height: 60px;
     border-radius: 25px;
     border: 1px solid #000;
   }
@@ -1140,28 +1144,28 @@ Breakpoint Ipad
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 55px;
-    height: 53px;
+    width: 65px;
+    height: 60px;
     border-radius: 50%;
     border: 1px solid #000;
   }
   .Home img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
   .buy-now {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 105px;
-    height: 50px;
-    border-radius: 25px;
+    height: 60px;
+    border-radius: 28px;
     background-color: #086d24;
   }
   .buy-now p {
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
-    font-weight: 400;
+    font-weight: bold;
   }
   .addSuccess {
     display: flex;
